@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['A', 'A-B-C-Olrz', 'B', 'C']
+
+roboflow:
+  workspace: object-detection-gq1bt
+  project: signlanguagedetection-jsb85
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/object-detection-gq1bt/signlanguagedetection-jsb85/dataset/1
